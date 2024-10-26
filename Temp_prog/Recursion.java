@@ -23,7 +23,7 @@ class Recursion {
         System.out.println(fibonacci(i));
         }
     }
-
+}
 /*
  * 
  * call stack (n=5)
