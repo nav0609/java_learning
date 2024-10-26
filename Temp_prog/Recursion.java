@@ -14,17 +14,15 @@ class Recursion {
         if (n <= 1) {
             return n;
         }
-        return fibonacci(fibonacci(n-2)-1);
-        // for (i ...) { for (j ...) {} }
+        return fibonacci(n-1)+fibonacci(n-2);
         }
 
     public static void main(String[] args) {
-        int start = 0;
         int n = 10;
-        System.out.println(fibonacci(n));
-        // System.out.println(factorial(start, start+1, n));
+        for(int i=0;i<=n;i++){
+        System.out.println(fibonacci(i));
+        }
     }
-}
 
 /*
  * 
